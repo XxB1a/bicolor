@@ -12,7 +12,6 @@ def color(text, color_code):
 def red(text):
     return color(text, 31)
 
-
 def blink(text):
     return color(text, 5)
 
