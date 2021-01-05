@@ -9,7 +9,6 @@ def color(text, color_code):
 
     return '\x1b[%dm%s\x1b[0m' % (color_code, text)
 
-
 def red(text):
     return color(text, 31)
 
