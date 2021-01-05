@@ -15,7 +15,6 @@ def red(text):
 def blink(text):
     return color(text, 5)
 
-
 def green(text):
     return color(text, 32)
 
